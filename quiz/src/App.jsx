@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Timer from './component/Timer'
+import Question from './component/Question'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -10,7 +11,8 @@ function App() {
   return (
     <>
       <div>
-       <Timer/>
+        <Timer />
+        <Question/>
         </div>
     </>
   )

@@ -1,6 +1,6 @@
 curl "https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent" \
   -H 'Content-Type: application/json' \
-  -H 'X-goog-api-key: AIzaSyAPO0pIxGmeH1K55i9o2jAERancljQLf' \
+  -H 'X-goog-api-key: ' \
   -X POST \
   -d '{
     "contents": [
